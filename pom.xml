@@ -31,10 +31,27 @@
 		</dependency>
 
 		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+		</dependency>
+		
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+		  	<groupId>com.qiniu</groupId>
+		 	<artifactId>qiniu-java-sdk</artifactId>
+		 	<version>[7.2.0, 7.2.99]</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
